@@ -1,5 +1,6 @@
 runpod~=1.7.0
 infinity-emb[all]==0.0.77
 transformers>=4.51.0,<6.0.0
+optimum>=1.17.0,<2.0.0  # bettertransformer removed in v2, infinity-emb still imports it
 einops # deployment of custom code with nomic
 git+https://github.com/pytorch-labs/float8_experimental.git
