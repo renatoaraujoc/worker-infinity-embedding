@@ -25,6 +25,7 @@ class EmbeddingService:
                     dtype=dtype,
                     model_warmup=False,
                     lengths_via_tokenize=True,
+                    bettertransformer=False,
                 )
             )
 
